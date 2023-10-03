@@ -17,17 +17,6 @@ debug
 */
 
 
-.debug .main1, .main3{
-    background-color: white;
-    
-}
-
-
-.main4{
-    background-color: #d3d3d3;
-}
-
-
 .debug .footer1{
 height: 600px;
 }
@@ -194,8 +183,8 @@ main{
     
 }
 
-.main2{
-    background-color: #f6f6f6;
+.main2, .main4{
+background-color: #f6f6f6;
 }
 
 .main2-right > h2, .main3-right > h2{
@@ -209,20 +198,45 @@ main{
  
 }
 
-.main-big{
-    width: 1250px;   
-}
 
 .container-main4{
-    padding-top: 52px;
-    width: 1250px;
-    margin: 0 auto;
-    padding-bottom: 52px;
-}
-.main4{
-    height: 1040px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.titolo-main4{
+    text-align: center;
+    width: 750px;
+    margin-top: 70px;
+}
+
+.titolo-main4 > h2{
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.titolo-main4 > p{
+    font-size: 15px;
+    
+}
+
+.domanda{
+    margin-top: 60px;
+}
+
+.scarica-mac > a{
+    background-color: #7289da;
+    border-radius: 20px;
+    padding: 12px;
+    color: white;
+
+
+}
+
+.scarica-mac{
+    margin: 100px;
+}
 /*
 **********
 /main
