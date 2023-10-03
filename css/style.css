@@ -12,14 +12,6 @@ common
 
 /*
 **********
-debug 
-**********
-*/
-
-
-
-/*
-**********
 header
 **********
 */
@@ -78,8 +70,7 @@ header{
 
     a{
         text-decoration: none;
-        border-radius: 20px;
-       
+        border-radius: 20px;  
     }
 
     .container-blocco2{
@@ -120,6 +111,10 @@ header{
     color: white;
     background-color: #23272a;
    }
+
+   header img {
+    max-width: 100%;
+}
 
    /*
 **********
@@ -167,8 +162,7 @@ main{
 
 .main1-right > p{
     margin-top: 55px;
-    text-align: left;
-    
+    text-align: left;   
 }
 
 .main2, .main4{
@@ -179,13 +173,12 @@ background-color: #f6f6f6;
     font-size: 55px;
     margin-top: 25px;
 }
+
 .main2-right > p, .main3-right > p{
     
     margin-top: 25px;
     text-align: left;
- 
 }
-
 
 .container-main4{
     display: flex;
@@ -205,8 +198,7 @@ background-color: #f6f6f6;
 }
 
 .titolo-main4 > p{
-    font-size: 15px;
-    
+    font-size: 15px;   
 }
 
 .domanda{
@@ -218,8 +210,10 @@ background-color: #f6f6f6;
     border-radius: 20px;
     padding: 12px;
     color: white;
+}
 
-
+main img {
+    max-width: 100%;
 }
 
 .scarica-mac{
@@ -242,7 +236,7 @@ span > img{
 }
 .lingua{
     color: white;
-    
+   
 }
 
 .container-footer1{
@@ -257,7 +251,6 @@ height: 660px;
 .footer1-right{
     width: calc(100% - 375px);
     display: flex;
-
 }
 
 .social > h2{
@@ -291,8 +284,6 @@ text-align: left;
     width: calc(100% / 4);
 }
 
-
-
 .elenco{
     margin-top: 30px;
     color: white;
@@ -303,9 +294,6 @@ text-align: left;
     color: #6a87da;
 }
 
-
-
-
 .container-footer2{
     background-color: #23272a;
     display: flex;
@@ -315,11 +303,7 @@ text-align: left;
     border-top: 2px solid #4f5d8c;
     margin-top: 50px;
     width: 100%;
-    
-
 }
-
-
 
 .footer2{
     width: 1250px;
@@ -338,13 +322,11 @@ text-align: left;
     background-color: #7289da;
     color: white;
     padding: 8px;
-
 }
 
 .bottone{
     margin-top: 10px;
 }
-
 
 /*
 **********
