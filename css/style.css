@@ -23,36 +23,6 @@ debug
 }
 
 
-
-
-
-
-
-.debug .main2{
-    background-color: #d3d3d3;
-    
-}
-
-.debug .main2-left{
-    background-color: #1e90ff;
-    height: 520px;
-    border: 2px dashed black;
-
-}
-.debug .main2-right{
-    background-color: #ffc0cb;
-    height: 520px;
-    border: 2px dashed black;
-
-}
-
-.debug .main-big{
-    background-color: #228b22;
-    height: 935px;
-    border: 2px dashed black;
-
-}
-
 .main4{
     background-color: #d3d3d3;
 }
@@ -220,9 +190,23 @@ main{
 
 .main1-right > p{
     margin-top: 55px;
-    font-size: 16px;
     text-align: left;
     
+}
+
+.main2{
+    background-color: #f6f6f6;
+}
+
+.main2-right > h2{
+    font-size: 55px;
+    margin-top: 25px;
+}
+.main2-right > p{
+    
+    margin-top: 25px;
+    text-align: left;
+ 
 }
 
 .main-big{
