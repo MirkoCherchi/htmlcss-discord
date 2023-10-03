@@ -198,11 +198,11 @@ main{
     background-color: #f6f6f6;
 }
 
-.main2-right > h2{
+.main2-right > h2, .main3-right > h2{
     font-size: 55px;
     margin-top: 25px;
 }
-.main2-right > p{
+.main2-right > p, .main3-right > p{
     
     margin-top: 25px;
     text-align: left;
