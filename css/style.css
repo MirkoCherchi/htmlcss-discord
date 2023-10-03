@@ -288,8 +288,22 @@ text-align: left;
 
 .footer1-right > .blocchi-right{
     width: calc(100% / 4);
-    border: 2px dashed white;
 }
+
+
+
+.elenco{
+    margin-top: 30px;
+    color: white;
+}
+
+.elenco1{
+    margin-top: 30px;
+    color: #6a87da;
+}
+
+
+
 
 .container-footer2{
     height: 115px;
