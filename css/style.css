@@ -15,30 +15,7 @@ common
 debug 
 **********
 */
-.header-blocco1{
-    
-    
-}
 
-
-
-.debug .header-logo{
-    
-    padding-left: 15px;
-}
-
-
-
-.debug .header-blocco2{
-    height: 520px;
-    background-color: #00008b;
-}
-
-.debug .header-big{
-    background-color: #ee82ee;
-    height: 415px;
-    border: 2px dashed black;
-}
 
 .debug .main1, .main3{
     background-color: white;
@@ -112,8 +89,13 @@ height: 600px;
 header
 **********
 */
-.header-intestazioni{
-    
+
+header{
+    color: white;
+    font-family: arial;
+}
+
+.header-intestazioni{ 
     display: flex;
     max-width: 1250px;
     margin: 0 auto;
@@ -127,51 +109,84 @@ header
 }
 
 .header-logo{
-    width: 250px;
-    align-items: center;
-    display: flex;   
+      width: 250px;
+      align-items: center;
+      display: flex; 
+      padding-left: 15px;  
 }
 
-.header-link{
-    width: 750px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .header-link{
+        width: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .header-link > a{
         color: white;
         text-decoration: none;
-        margin-right: 40px;
-        font-family: arial;
+        margin-right: 40px;    
     }
     
     .header-login{
         width: 250px;
-    align-items: center;
-    display: flex;
-    justify-content: end;
+        align-items: center;
+        display: flex;
+        justify-content: end;
     }
+    
     .header-login > a{
         background-color: white;
         border-radius: 20px;
-        padding: 11px;
-        text-decoration: none;
+        padding: 12px;
         color: black;
-
     }
 
-    .header-big{
-        width: 945px;
+    a{
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    .container-blocco2{
+        background-image: url(../img/jumbo.png);
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
         margin: 0 auto;
     }
 
-    .header-blocco2{ 
-        padding: 52px;
-        height: 520px;
+    .titolo{
+        text-align: center;
+        margin: 0 auto;
+        padding: 185px;
+        max-width: 70%;
     }
 
-    /*
+    h1{
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+
+    p{
+        margin-bottom: 40px;
+    }
+
+   .bottoni-header2 > a{
+    background-color: white;
+    margin: 20px;
+   }
+
+   .bottoni-header2 :first-child{
+    color: black; 
+   }
+   
+   .bottoni-header2 :last-child{
+    color: white;
+    background-color: #23272a;
+   }
+
+   /*
 **********
 /header
 **********
