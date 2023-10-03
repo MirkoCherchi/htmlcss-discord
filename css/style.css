@@ -79,7 +79,7 @@ header{
     a{
         text-decoration: none;
         border-radius: 20px;
-        padding: 15px;
+       
     }
 
     .container-blocco2{
@@ -109,6 +109,7 @@ header{
    .bottoni-header2 > a{
     background-color: white;
     margin: 20px;
+    padding: 15px;
    }
 
    .bottoni-header2 :first-child{
@@ -306,48 +307,44 @@ text-align: left;
 
 
 .container-footer2{
-    height: 115px;
     background-color: #23272a;
-    border-top: 2px solid white;
-    border-bottom: 1px solid white;
     display: flex;
     align-items: end;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 2px solid #4f5d8c;
+    margin-top: 50px;
+    width: 100%;
+    
 
 }
 
+
+
 .footer2{
-    background-color: #7fffd4;
-    height: 85px;
     width: 1250px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.logo-footer{
-background-color: #ffb6c1;
-height: 40px;
-width: 70px;
-display: flex;
-justify-content: center;
-align-items: center;
-border: 2px dashed black;
-font-size: 20px;
+.logo-footer > img{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.bottone > a{
+    background-color: #7289da;
+    color: white;
+    padding: 8px;
 
 }
 
 .bottone{
-    background-color: #ffb6c1;
-height: 40px;
-width: 95px;
-display: flex;
-justify-content: center;
-align-items: center;
-border: 2px dashed black;
-font-size: 20px;
-
+    margin-top: 10px;
 }
+
 
 /*
 **********
