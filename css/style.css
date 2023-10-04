@@ -29,7 +29,6 @@ header{
 .header-blocco1{
     width: 100%;
     padding-top: 20px;
-    height: 85px;
     background-color: #255ee9;
 }
 
@@ -50,7 +49,8 @@ header{
     .header-link > a{
         color: white;
         text-decoration: none;
-        margin-right: 40px;    
+        margin-right: 40px;
+        font-size: 14px;    
     }
     
     .header-login{
@@ -63,7 +63,7 @@ header{
     .header-login > a{
         background-color: white;
         border-radius: 20px;
-        padding: 12px;
+        padding: 10px 15px;
         color: black;
     }
 
@@ -83,23 +83,25 @@ header{
     .titolo{
         text-align: center;
         margin: 0 auto;
-        padding: 185px;
+        padding: 180px;
         max-width: 70%;
     }
 
     h1{
         margin-bottom: 40px;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     p{
         margin-bottom: 40px;
+        line-height: 1.6;
     }
 
    .bottoni-header2 > a{
     background-color: white;
     margin: 20px;
     padding: 15px;
+    border-radius: 30px;
    }
 
    .bottoni-header2 :first-child{
@@ -121,19 +123,19 @@ header{
 **********
 */
 
-
 /*
 **********
 main
 **********
 */
+
 main{
     font-family: arial;
     color: black;
 }
 
 .main1, .main3, .main2{
-    padding: 140px;    
+    padding: 140px;   
 }
 
 .container-main1, .container-main3, .container-main2{
@@ -147,7 +149,7 @@ main{
 }
 
 .main1-right, .main3-right, .main2-right{
-    width: calc(100% - 750px);  
+    width: calc(100% - 750px); 
 }
 
 .container-main2{
@@ -255,7 +257,7 @@ height: 660px;
 
 .social > h2{
     font-size: 40px;
-    margin: 20px;
+    margin: 15px 20px 20px 20px;
     color: #527dd0;
     
 }
@@ -285,13 +287,14 @@ text-align: left;
 }
 
 .elenco{
-    margin-top: 30px;
+    margin-top: 25px;
     color: white;
 }
 
 .elenco1{
     margin-top: 30px;
     color: #6a87da;
+    font-weight: bold;
 }
 
 .container-footer2{
@@ -309,6 +312,7 @@ text-align: left;
 footer{
     background-color: #23272a;
     padding-bottom: 70px;
+    padding-top: 70px;
 }
 
 .footer2{
@@ -354,3 +358,14 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.wave{
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    fill: green;
+    opacity: 0.04;
+}
+
+.wave.reverse {
+    transform: rotateX(0.5turn);
+  }
