@@ -216,7 +216,8 @@ main img {
 }
 
 .scarica-mac{
-    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 /*
 **********
@@ -346,3 +347,10 @@ footer{
 /footer 
 **********
 */   
+
+#stelle{
+    background-image: url(../img/stars.svg);
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
