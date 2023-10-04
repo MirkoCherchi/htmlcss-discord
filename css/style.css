@@ -304,6 +304,12 @@ text-align: left;
     width: 100%;
 }
 
+
+footer{
+    background-color: #23272a;
+    padding-bottom: 70px;
+}
+
 .footer2{
     width: 1250px;
     margin: 0 auto;
@@ -327,6 +333,14 @@ text-align: left;
     margin-top: 10px;
 }
 
+.container-footer1 , .container-footer2{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.footer1{
+    padding-bottom: 40px;
+}
 /*
 **********
 /footer 
